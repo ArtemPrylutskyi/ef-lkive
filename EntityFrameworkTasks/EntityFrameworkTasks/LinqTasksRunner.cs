@@ -117,7 +117,6 @@ public class LinqTasksRunner
             .Select(c => c.User)
             .Distinct();
 
-        // Можеш тут додати вивід у консоль або зберегти результати
         Console.WriteLine("Усі запити виконано успішно.");
     }
 }
